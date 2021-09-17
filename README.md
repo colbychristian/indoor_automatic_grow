@@ -1,1 +1,1 @@
-# indoorr_automatic_grow
+# indoor_automatic_grow
