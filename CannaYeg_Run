@@ -10,7 +10,7 @@ server = smtplib.SMTP("smtp.gmail.com", 587)
 
 server.starttls()
 
-server.login("colbycjamieson@gmail.com", "milk9bars?")
+server.login("colbycjamieson@gmail.com", "XXXXXXXXXXX")
 
 if sys.platform == 'uwp':
     import winrt_smbus as smbus
@@ -96,7 +96,7 @@ while True:
         setText("Moisture Low Watering Required")
         setRGB(255,0,0)
         if text_sent == False:
-            #server.sendmail("CannaYeg Grow Alert", "7809204113@msg.koodomobile.com", "Soil moisture is low in the grow tent - watering required")
+            #server.sendmail("CannaYeg Grow Alert", "xxxxxxxxxx@msg.koodomobile.com", "Soil moisture is low in the grow tent - watering required")
             text_sent = True
             grovepi.digitalWrite(buzzer,1)
             time.sleep(1)
