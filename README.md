@@ -11,4 +11,6 @@ Future features include:
 3. fan, light, humidity control
 4. Smoke sensor
 5. Automatic watering
-6. Video monitoring
+6. Light timer
+7. Video monitoring
+8. Modes for different crops
